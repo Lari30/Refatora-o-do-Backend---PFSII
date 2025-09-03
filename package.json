@@ -1,0 +1,31 @@
+{
+  "name": "refatoracao-do-backend",
+  "version": "1.0.0",
+  "description": "trabalho de refatoracao do backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lari30/Refatora-o-do-Backend---PFSII.git"
+  },
+  "author": "Larissa Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lari30/Refatora-o-do-Backend---PFSII/issues"
+  },
+  "homepage": "https://github.com/Lari30/Refatora-o-do-Backend---PFSII#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
